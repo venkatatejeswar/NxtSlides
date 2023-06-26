@@ -131,7 +131,7 @@ class NxtSlides extends Component {
             </button>
           </div>
           <div className="slides-panel-container">
-            {this.renderSlidesTabs()}
+            <div className="slidetab-cont">{this.renderSlidesTabs()}</div>
             <div className="current-slide-container">
               <CurrentSlide
                 key={activeTab.id}

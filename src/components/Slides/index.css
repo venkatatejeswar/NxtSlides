@@ -3,11 +3,10 @@
 }
 .slides-container {
   background-color: #ffffff10;
-  min-height: 90vh;
+  height: 90vh;
   padding: 16px;
 }
 .btn-container {
-  width: 100%;
   justify-content: flex-start;
 }
 .plus-icon {
@@ -25,7 +24,6 @@
   color: #0f172a;
 }
 .slides-panel-container {
-  width: 100%;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
@@ -35,13 +33,16 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  list-style-type: decimal;
+  list-style-type: none;
   overflow-y: scroll;
+  height: 80vh;
+}
+.slidetab-cont {
+  min-height: 80vh;
 }
 
 .current-slide-container {
-  width: 70%;
-  min-height: 70vh;
+  min-height: 80vh;
   padding: 25px;
   display: flex;
   justify-content: center;
