@@ -1,0 +1,49 @@
+.bg-container {
+  min-height: 100vh;
+}
+.slides-container {
+  background-color: #ffffff10;
+  min-height: 90vh;
+  padding: 16px;
+}
+.btn-container {
+  width: 100%;
+  justify-content: flex-start;
+}
+.plus-icon {
+  width: 12px;
+  margin-right: 4px;
+}
+.new-btn {
+  background-color: #f8fafc;
+  border: none;
+  font-size: 16px;
+  font-family: 'Bree Serif';
+  border-radius: 5px;
+  width: 80px;
+  padding: 8px;
+  color: #0f172a;
+}
+.slides-panel-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.tabs-panel-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  list-style-type: decimal;
+  overflow-y: scroll;
+}
+
+.current-slide-container {
+  width: 70%;
+  min-height: 70vh;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

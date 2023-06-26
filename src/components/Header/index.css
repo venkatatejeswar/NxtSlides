@@ -1,0 +1,19 @@
+.nav-bar {
+  background-color: #f8fafc;
+  width: 100vw;
+  height: 10vh;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.logo {
+  width: 100px;
+  height: 40px;
+}
+.title {
+  color: #0f172a;
+  font-size: 32px;
+  font-family: 'Bree Serif';
+  margin-left: 25px;
+}
